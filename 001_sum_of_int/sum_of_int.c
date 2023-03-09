@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main (int argc, char *argv[]){
+int main (int argc, char *argv[]) {
 
 	int a = 40, b = 2;
 	int sum = a + b;
