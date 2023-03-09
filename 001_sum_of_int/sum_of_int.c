@@ -8,19 +8,12 @@ int main (int argc, char *argv[]){
 	int sum = a + b;
 	int triple = sum * 3;
 
-	printf("\nThe sum of %d + %d = %d\n", a, b, sum);
-	printf("The sum of %d multiplied by 3 = %d\n\n", sum, triple);
+	printf("\nThe sum of %d + %d = %d\n", a, b, sum); 
+	// The sum of 40 + 2 = 42
+
+	printf("The sum of %d multiplied by 3 = %d\n\n", sum, triple); 
+	// The sum of 42 multiplied by 3 = 126
 
 
 	return 0;
 }
-
-
-/*
-
-DISPLAYED OUTPUT:
-
-The sum of 40 + 2 = 42
-The sum of 42 multiplied by 3 = 126
-
-*/
