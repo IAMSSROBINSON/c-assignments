@@ -16,8 +16,8 @@ int main (int argc, char *argv[]) {
 	printf("\nResult rounded up to the nearest integer using #include <math.h>, ceil() function: %.1f\n", ceil(result));
 	// Result rounded up to the nearest integer using #include <math.h>, ceil() function: 17.0
 
-	printf("\nResult rounded down to the nearest integer using #include <math.h>, floor(): %.1f\n", floor(result));
-	// Result rounded down to the nearest integer using #include <math.h>, floor(): 16.0
+	printf("\nResult rounded down to the nearest integer using #include <math.h>, floor() function: %.1f\n", floor(result));
+	// Result rounded down to the nearest integer using #include <math.h>, floor() function: 16.0
 
 
 	return 0;
