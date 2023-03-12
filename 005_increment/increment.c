@@ -1,4 +1,4 @@
-// Use the correct operator to increase the value of a variable x by 1 and the display results.
+// Use the correct operator to increase the value of a variable x by 1 and then display results.
 
 #include <stdio.h>
 
