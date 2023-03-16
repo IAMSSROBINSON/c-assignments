@@ -6,15 +6,21 @@ int main (int argc, char *argv[]) {
 
 	int count = 100;
 
-	printf("Odd numbers between 1 - 100:\n");
+	printf("\nOdd numbers between 1 - 100:\n\n");
 
 	for (int i = 1; i <= count; i++)
 	{
 		if(i % 2 != 0){
-			printf("%d\n", i);
+			printf("%d ", i);
+			if(i == 51){
+				printf("\n");
+			}
+			if(i == 99){
+				printf("\n\n");
+			}
 		}
 	}
-	
+
 
 	return 0;
 }
