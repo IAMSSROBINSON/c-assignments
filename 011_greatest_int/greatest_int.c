@@ -1,4 +1,4 @@
-// Find the greatest of 3 numbers
+// Find the greatest of 3 numbers.
 
 #include <stdio.h>
 
