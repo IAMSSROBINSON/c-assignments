@@ -5,7 +5,7 @@
 int main (int argc, char *argv[]) {
 
 	int num1, num2, num3;
-	printf("\nPlease enter 3 numbers separated by a space: \n");
+	printf("\nPlease enter 3 numbers separated by a space:\n");
 	scanf("%d %d %d", &num1, &num2, &num3);
 
 	if(num1 > num2){
