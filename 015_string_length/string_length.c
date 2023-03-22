@@ -4,12 +4,11 @@
 #include <string.h>
 
 
-
 int main (int argc, char *argv[]) {
 
-	char string[] = "Stephen";
+	char word[] = "Stephen";
 
-	printf("\nLength of string is: %lu\n", strlen(string));
+	printf("\nLength of word is: %lu\n", strlen(word));
 
 
 	return 0;
