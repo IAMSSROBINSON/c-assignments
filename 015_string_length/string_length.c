@@ -3,10 +3,9 @@
 #include <stdio.h>
 #include <string.h>
 
-
 int main (int argc, char *argv[]) {
 
-	char word[] = "Stephen";
+	char word[] = "IAMSSROBINSON";
 
 	printf("\nLength of word is: %lu\n", strlen(word));
 
