@@ -13,13 +13,11 @@ int main (int argc, char *argv[]) {
 		printf("%d\n", array[i]);
 	}
 
-
 	printf("\nBACKWARD:\n");
 	for (int i = length-1; i >= 0; --i)
 	{
 		printf("%d\n", array[i]);
 	}
-
 
 
 	return 0;
@@ -30,7 +28,4 @@ int main (int argc, char *argv[]) {
 INPUT: int array[5] = {2, 4, 6, 8, 10};
 OUTPUT: 10, 8, 6, 4, 2
 
-
-
-first READ the values in the array
 */
