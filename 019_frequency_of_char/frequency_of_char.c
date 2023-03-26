@@ -50,7 +50,7 @@ int getFrequencyOfCharacter(char *string, char character, int stringLength) {
 // function definition: print results
 void printer (char *string, char character, int frequencyOfCharacter) {
 
-	printf("\nFound character: %c\nIn string: %s\nThe frequency char is: %d\n\n",character, string, frequencyOfCharacter);
+	printf("\nFound character: %c\nIn string: %s\nThe frequency of the character is: %d\n\n",character, string, frequencyOfCharacter);
 }
 
 
