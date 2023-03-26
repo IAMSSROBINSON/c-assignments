@@ -15,10 +15,11 @@ int main (int argc, char *argv[]) {
 	// variable declarations
 	char string[] = "hello";
 	char character = 'l';
+	int stringLength, frequencyOfCharacter;
 
 	// function calls
-	int stringLength = getStringLength(string);
-	int frequencyOfCharacter = getFrequencyOfCharacter(string, character, stringLength);
+	stringLength = getStringLength(string);
+	frequencyOfCharacter = getFrequencyOfCharacter(string, character, stringLength);
 	printer(string, character, frequencyOfCharacter);
 
 
