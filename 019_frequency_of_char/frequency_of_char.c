@@ -3,34 +3,60 @@
 #include <stdio.h>
 #include <string.h>
 
-int stringLength;
-int counter = 0;
+// declare functions
+int getStringLength(char *string);
+int getFrequencyOfCharacter(char *string, char character, int stringLength);
+void printer (char *string, char character, int frequency);
 
-void frequencyOfCharacter (char *string, char character) {
 
-	stringLength = strlen(string);
-
-	for(int i = 0; i < stringLength; i++){
-		if(string[i] == character){
-			counter++;
-		} 
-	}
-	printf("\nFound character: %c\nIn string: %s\nThe frequency char is: %d\n\n",character, string, counter);
-}
-
+// main function implementation
 int main (int argc, char *argv[]) {
 
+	// variable declarations
 	char string[] = "hello";
 	char character = 'l';
-	
-	frequencyOfCharacter(string, character);
+
+	// function calls
+	int stringLength = getStringLength(string);
+	int frequencyOfCharacter = getFrequencyOfCharacter(string, character, stringLength);
+	printer(string, character, frequencyOfCharacter);
 
 
 	return 0;
 }
 
 
+// function definition: calculate the length of a string
+int getStringLength (char *string) {
+
+	return strlen(string);
+}
+
+
+// function definition: calculate how many times char appears in string
+int getFrequencyOfCharacter(char *string, char character, int stringLength) {
+
+	int frequency = 0;
+
+	for(int i = 0; i < stringLength; i++){
+		if(string[i] == character){
+			frequency++;
+		} 
+	}
+	
+	return frequency;
+}
+
+// function definition: print results
+void printer (char *string, char character, int frequencyOfCharacter) {
+
+	printf("\nFound character: %c\nIn string: %s\nThe frequency char is: %d\n\n",character, string, frequencyOfCharacter);
+}
+
+
 /*
+
+Pseudocode:
 
 INPUT: 'l' FROM  'hello'
 OUTPUT: l, l, (2)
