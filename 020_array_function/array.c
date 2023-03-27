@@ -12,13 +12,15 @@ void printer (int *arrayElements, int elementsNum);
 // main function
 int main (int argc, char *argv[]) {
 
+	// variable declarations
 	int elementsNum;
 	int *arrayElements;
 	
+	// function calls
 	elementsNum = numberOfElements();
 	arrayElements = getArrayElements(elementsNum);
-
 	printer(arrayElements, elementsNum);
+
 
 	// free up space in memory from array
 	free(arrayElements);
@@ -59,7 +61,7 @@ int *getArrayElements (int elementsNum) {
 }
 
 
-// prints array values
+// prints array element values
 void printer (int *arrayElements, int elementsNum) {
 
 	printf("\nLIST:\n");
