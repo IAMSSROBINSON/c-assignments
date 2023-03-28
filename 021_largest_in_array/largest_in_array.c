@@ -31,6 +31,7 @@ int main (int argc, char *argv[]) {
   return 0;
 }
 
+// function definitions:
 
 // determine number of elements
 int getSize () {
