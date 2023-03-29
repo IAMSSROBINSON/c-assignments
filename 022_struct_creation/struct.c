@@ -10,6 +10,7 @@ typedef struct user {
 	int userAge;
 } client;
 
+
 // main function
 int main (int argc, char *argv[]) {
 
@@ -18,9 +19,11 @@ int main (int argc, char *argv[]) {
 	strcpy(user1.userEmail, "iamssrobinson@gmail.com"); // strcpy(destination, source)
 	user1.userAge = 1000;
 
+  // access and print struct variable content
 	printf("\nUsername: %s\n", user1.userName);
 	printf("Email: %s\n", user1.userEmail);
 	printf("Age: %d\n\n", user1.userAge);
+
 
 	return 0;
 }
