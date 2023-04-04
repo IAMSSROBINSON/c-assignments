@@ -1,0 +1,4 @@
+Name: Aristocles
+Age: 80
+Occupation: Philosopher
+Quote: “Thinking – the talking of the soul with itself.”
